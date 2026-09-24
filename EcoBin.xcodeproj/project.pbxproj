@@ -14,7 +14,6 @@
 		3FE585013064E27600B9D488 /* Exceptions for "EcoBin" folder in "EcoBin" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Features/CitizenMap/Views/BinDetailSheet.swift,
 				Features/CitizenMap/Views/FilterPillsView.swift,
 				Features/CollectorRouting/Views/TurnByTurnMapView.swift,
 				Features/CollectorRouting/Views/VerificationCameraView.swift,
