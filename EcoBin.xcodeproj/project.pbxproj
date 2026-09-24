@@ -10,9 +10,29 @@
 		3F8B3B6C3064DDF20099AD25 /* EcoBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FE585013064E27600B9D488 /* Exceptions for "EcoBin" folder in "EcoBin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Features/CitizenMap/Views/BinDetailSheet.swift,
+				Features/CitizenMap/Views/FilterPillsView.swift,
+				Features/CollectorRouting/Views/TurnByTurnMapView.swift,
+				Features/CollectorRouting/Views/VerificationCameraView.swift,
+				Features/IssueReporting/Views/CameraPickerView.swift,
+				Features/IssueReporting/Views/ReportSuccessView.swift,
+				Features/TicketTracking/Views/MyReportsListView.swift,
+				Features/TicketTracking/Views/TicketTimelineView.swift,
+			);
+			target = 3F8B3B6B3064DDF20099AD25 /* EcoBin */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3F8B3B6E3064DDF20099AD25 /* EcoBin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FE585013064E27600B9D488 /* Exceptions for "EcoBin" folder in "EcoBin" target */,
+			);
 			path = EcoBin;
 			sourceTree = "<group>";
 		};
@@ -174,6 +194,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -230,6 +251,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
